@@ -1,0 +1,99 @@
+h1::first-letter {
+    color: #00796B ;
+    font-size: 3em;
+}
+
+h1::first-letter:hover {
+    color: #4FC3F7;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+li:first-of-type{
+    text-decoration: line-through;
+}
+
+li:first-of-type::before {
+    content: "✔️";
+    text-decoration: none;
+}
+
+li:first-of-type::after {
+    content: "🏋🏻‍♂️"; 
+}
+
+
+
+
+li:nth-of-type(2)::before {
+    content: "✔️";
+}
+
+li:nth-of-type(2){
+    text-decoration: line-through;
+}
+
+li:nth-of-type(2)::after {
+    content: "💵";
+}
+
+
+li:nth-of-type(3)::before {
+    content: "🏗️";
+}
+
+li:nth-of-type(3){
+    background-color: #4FC3F7;
+}
+
+li:nth-of-type(3)::after {
+    content: "🕺🏻";
+}
+
+
+li:nth-of-type(4)::before {
+    content: "🏗️";
+}
+
+li:nth-of-type(4){
+    background-color: #4FC3F7;
+}
+
+li:nth-of-type(4)::after {
+    content: "🔪";
+}
+
+
+
+li:nth-of-type(5)::before {
+    content: "❌";
+}
+
+li:nth-of-type(5){
+    text-decoration: underline;
+}
+
+li:nth-of-type(5)::after {
+    content: "📖";
+}
+
+li:nth-of-type(6)::before {
+    content: "❌";
+}
+
+li:nth-of-type(6){
+    text-decoration: underline;
+}
+
+li:nth-of-type(6)::after {
+    content: "🗂️";
+}
+
+li {
+    font-weight: 700;
+}
