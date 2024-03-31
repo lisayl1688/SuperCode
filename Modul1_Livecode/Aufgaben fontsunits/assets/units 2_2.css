@@ -17,6 +17,7 @@ h1 {
     background-color: lightgray;
     position: absolute;
     opacity: 0.5;
-    margin: 5em;
     padding: 4em;
+    top: 30%;
+    left: 30%;
 }
