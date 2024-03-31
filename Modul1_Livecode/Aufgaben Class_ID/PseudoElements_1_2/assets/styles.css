@@ -3,6 +3,10 @@
     color: #a020f0, #00bfff, #32cd32,#c71585,#00ced1,#483d8b,#2e8b57;
 }*/
 
+* {
+    font-weight: bolder;
+}
+
 h3::first-letter {
     font-size: xx-large;
     color:#2e8b57;
@@ -27,6 +31,10 @@ li:last-of-type::first-letter {
     font-size: xx-large;
     color: #32cd32;
 
+}
+
+li:last-of-type{
+    text-decoration: line-through;
 }
 
 @font-face {
@@ -56,4 +64,32 @@ li:last-of-type::first-letter {
     color: red;
     
     
+}
+
+.father {
+    color: green;
+    font-size: x-large;
+}
+
+.father::first-letter {
+    color: red;
+
+}
+
+.doctor {
+    color: green;
+    font-size: smaller;
+}
+
+.doctor::first-letter {
+    color: red;
+}
+
+.swallowed {
+    color: green;
+    font-size: x-large;
+}
+
+.swallowed::first-letter {
+    color: red;
 }
