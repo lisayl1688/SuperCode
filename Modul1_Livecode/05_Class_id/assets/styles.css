@@ -1,0 +1,27 @@
+p::before {
+    content: "vorher ->";
+    color: red;
+
+}
+
+p::after {
+    content: "<- danach";
+    color: green;
+
+}
+
+p::first-letter {
+    color: gold;
+    font-weight: bold;
+}
+
+li::marker {
+    color: red;
+
+}
+
+article > p {
+    color: yellow;
+}
+
+

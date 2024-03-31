@@ -1,0 +1,38 @@
+h1 {
+    color: brown;
+}
+
+article ul li:last-child {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+
+h2 {
+    color:blueviolet;
+}
+
+h2:first-of-type {
+    color: tomato;
+}
+
+article ul li:nth-of-type(2) {
+    color: cadetblue;
+}
+
+span {
+    border: 1px solid red;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+
+h3:last-of-type {
+    border: 1px solid red;
+    height: 100px;
+    width: 400px;
+}
+
+a {
+    display: block;
+}

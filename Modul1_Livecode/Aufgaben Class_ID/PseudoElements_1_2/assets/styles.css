@@ -1,0 +1,59 @@
+/*h3::first-letter {
+    font-size: larger;
+    color: #a020f0, #00bfff, #32cd32,#c71585,#00ced1,#483d8b,#2e8b57;
+}*/
+
+h3::first-letter {
+    font-size: xx-large;
+    color:#2e8b57;
+}
+
+li:first-of-type::first-letter {
+    text-decoration: overline;
+    font-size: xx-large;
+    color: #00bfff;
+
+}
+
+li:nth-of-type(2)::first-letter {
+    text-decoration: underline;
+    font-size: xx-large;
+    color: #c71585;
+
+}
+
+li:last-of-type::first-letter {
+    text-decoration: line-through;
+    font-size: xx-large;
+    color: #32cd32;
+
+}
+
+@font-face {
+    font-family:Montserrat-Regular ;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+.yogurt {
+    font-size: large;
+}
+
+.doctor {
+    color: green;
+}
+
+.doctor::first-letter {
+    color: red;
+    font-size: x-large;
+}
+
+.annihilate {
+    color: green;
+    font-size: smaller;
+}
+
+.annihilate::first-letter {
+    color: red;
+    
+    
+}

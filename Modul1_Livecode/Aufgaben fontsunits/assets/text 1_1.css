@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h3 {
+    font-size: 48px;
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #333;
+    font-size: 20px;
+
+}
+
+li {
+    color: #777;
+    font-size: 20px;
+}
+
+li:nth-of-type(4) {
+    text-decoration: overline;
+}
+
+li:first-of-type {
+    text-decoration: line-through;
+}

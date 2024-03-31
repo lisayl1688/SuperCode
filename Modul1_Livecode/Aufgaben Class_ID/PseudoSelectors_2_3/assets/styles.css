@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+h1:hover{
+    color: aquamarine;
+   
+}
+
+p {
+    font-family: monospace;
+}
+
+.timeline {
+    background-color: aquamarine;
+}
+
+ul {
+    font-style: italic;
+}
+
+li:last-of-type {
+    font-style: normal;
+}
+
+a:hover {
+    font-size: 1.3rem;
+}
+
+a:active {
+    color: blueviolet;
+   
+}
+
+a {
+    border: 2px solid aquamarine;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}

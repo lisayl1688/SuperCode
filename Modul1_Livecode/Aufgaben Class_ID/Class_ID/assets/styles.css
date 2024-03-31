@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color: #333;
+}
+
+.layout {
+    background-color: #f1f1f1;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+button {
+    color: lightblue;
+    padding: 5px 15px;
+    border: 1px solid green;
+    color: #333;
+}

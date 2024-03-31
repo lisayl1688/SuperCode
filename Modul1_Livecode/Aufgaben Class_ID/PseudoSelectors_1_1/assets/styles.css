@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    background-color: #7E3661;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FCB941;
+
+}
+
+a:active {
+    font-size: 3em;
+}

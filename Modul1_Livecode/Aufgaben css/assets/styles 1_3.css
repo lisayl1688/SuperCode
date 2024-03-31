@@ -1,0 +1,25 @@
+header {
+    background-color: grey;
+}
+a {
+    color: orangered;
+    display: block;
+}
+nav {
+    padding:  0 50px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h3 {
+    color: orange;
+    font-weight: lighter;
+}
+
+span {
+    color: orangered;
+}
+
+

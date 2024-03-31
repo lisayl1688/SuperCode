@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 2rem;
+    border: 70px;
+}
+
+
+li {
+    
+    width: 0.8em;
+    line-height: 1.5em;
+    list-style-type: none;
+    
+
+}
+
+.pets{
+    border: 2px solid black;
+    
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+.dog>li::before {
+    content: "🐶";
+}

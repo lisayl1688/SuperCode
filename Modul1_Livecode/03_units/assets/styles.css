@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 16px;
+
+}
+
+article {
+    height: 50vh;
+    width: 50vw;
+    border: green 2px solid;
+}
+
+h1 {
+    font-size: 48px;
+    border: red 2px solid;
+    height: 7rem;
+    width: 0.5rem;
+}
+
+p {
+    width: 4em;
+    height: 4em;
+    border: blue 2px solid;
+}

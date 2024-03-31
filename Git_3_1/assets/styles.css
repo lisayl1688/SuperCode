@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+
+}
+main {
+    background-color: lightskyblue;
+    border: 5px solid lavender;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 10px 5px darkgray;
+
+}
+
+p {
+    
+    color: black;
+    font-weight: lighter;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
