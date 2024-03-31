@@ -228,17 +228,21 @@ h3 {
 }
 
 footer {
-    border-top: 1px solid #666666;
+    border-top: 1px solid lightgrey;
     text-align: center;
     font-size: 20px;
     color: #666666;
     padding: 75px;
+    width: 80vw;
+    margin: auto;
 }
 
 
 
 .end {
 padding-bottom: 70px;
+/*text-decoration: none;
+color: #666666;*/
 }
 
 
