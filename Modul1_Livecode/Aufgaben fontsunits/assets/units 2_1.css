@@ -10,17 +10,12 @@ h1 {
 
 
 li {
-    
-    width: 0.8em;
     line-height: 1.5em;
     list-style-type: none;
-    
-
 }
 
 .pets{
     border: 2px solid black;
-    
 }
 
 ul {
@@ -29,4 +24,20 @@ ul {
 
 .dog>li::before {
     content: "🐶";
+}
+
+.cat>li::before {
+    content: "🐱";
+}
+
+.parrot>li::before {
+    content: "🦜";
+}
+
+.snake>li::before {
+    content: "🐍";
+}
+
+.lizzard>li::before {
+    content: "🦎";
 }
