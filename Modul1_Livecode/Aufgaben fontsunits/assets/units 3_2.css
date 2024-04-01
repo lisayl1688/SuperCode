@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: Dosis-Regular;
+    src: url(./fonts/Dosis-Regular.ttf);
+}
+
+.sterne {
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+}
+
+.kali {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border: none;
+}
+
+.kali:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+
+}
+
+p {
+    font-size: 54px;
+    font-family: Dosis-Regular;
+    position: absolute;
+    bottom: 8%;
+    left: 33%;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em darkgray, 0 0 0.2em black;
+}
+h1 {
+    font-family: Dosis-Regular;
+    font-size: 160px;
+    position: absolute;
+    bottom: 67%;
+    left: 42%;
+    text-shadow: 1px 1px 2px lightgrey, 0 0 1em darkgray, 0 0 0.2em black;
+}
