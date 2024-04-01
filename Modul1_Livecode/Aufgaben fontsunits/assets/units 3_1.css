@@ -4,50 +4,58 @@
     padding: 0;
 }
 
-body {
-    background-image: url("./img/leo_visions-SmCgVHYEGwk-unsplash.jpg");
-    height: 100vh;
-    width: 100vw;
-
-}
-
 @font-face {
     font-family: ShadowsIntoLight-Regular;
     src: url(./fonts/ShadowsIntoLight-Regular.ttf);
 }
 
-/*img {
+
+img {
     height: 100vh;
     width: 100vw;
-}*/
-
-main {
-    width: 500px;
-    height: 500px;
-    background-color: olive;
-    margin: 5em;
-    opacity: 0.5;
 }
+
+
 
 h1 {
     text-align: center;
     color: black;
     font-family: ShadowsIntoLight-Regular;
-    font-size: 30px;
-    position: absolute;
-    margin: 5em;
-    padding: 4em;
-    border-radius: 5px;
-    background-color: none;
-    bottom: 45%;
-    left: 20%;
+    font-size: 2rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-shadow: 1px 1px 2px pink;
+}
+
+h2 {
+    font-size: 1.5em;
 }
 
 
 .titel {
-text-align: center;
-margin-top: 50px;
 font-family: ShadowsIntoLight-Regular;
-font-size: 20px;
+margin-bottom: 75px;
 }
 
+main {
+    position: absolute;
+    margin: 5em;
+    padding: 5%;
+    bottom: 40%;
+    left: 7%;
+    text-align: center;
+}
+
+article {
+    background-color: antiquewhite;
+    opacity: 0.5;
+    padding: 70px;
+    border-radius: 5rem;
+    padding: 2%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-size: 14px;
+}
