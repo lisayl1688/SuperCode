@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+.gender {
+    display: flex;
+    gap: 5px;
+}
+
+.activity {
+    display: flex;
+    gap: 5px;
+}
+
+.country {
+    display: flex;
+}

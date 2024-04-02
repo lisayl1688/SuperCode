@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <section class="allgemein">
+                <div>
+                    <label for="text">Name</label>
+                    <input type="text" id="text" placeholder="Name">
+                </div>
+                <div>
+                    <label for="text">Surname</label>
+                    <input type="text" id="text" placeholder="Surname">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="mail" id="mail" placeholder="Email">
+                </div>
+                <div class="gender">
+                    <p>Gender</p>
+                    <label for="male">Male</label>
+                    <input type="radio" name="auswahl" id="male">
+            
+                    <label for="female">Female</label>
+                    <input type="radio" name="auswahl" id="female">     
+                </div>
+
+                <label for="file">Picture</label>
+                <input type="file" name="" id="file">
+                <div class="country">
+                    <p>Country</p>
+                    <select name="country" id="country">
+                        <option value="">Germany</option>
+                        <option value="CN">China</option>
+                        <option value="RU">Russia</option>
+                    </select>
+                </div>
+                <div class="activity">
+                    <p>Field of activity</p>
+                    <input type="checkbox" name="it" id="it">
+                    <label for="it">IT</label>
+               
+                    <input type="checkbox" name="design" id="design">
+                    <label for="design">Design</label>
+
+                    <input type="checkbox" name="other" id="other">
+                    <label for="other">Other</label>
+                </div>  
+            </section>
+
+            <input type="button" value="Cancel">
+
+            <input type="submit" value="Send">
+
+        </fieldset>
+    </form>
+</body>
+</html>
