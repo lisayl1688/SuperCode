@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <fieldset>
+            <legend>Form</legend>
+            <section>
+                <div>
+                    <label for="text">Gib mit ein Text ein</label>
+                    <input type="text" id="text" placeholder="Gib mit ein Text ein">
+                </div>
+                <div>
+                    <label for="number">Gib mit eine Zahl ein</label>
+                    <input type="number" id="number" placeholder="Gib mit eine Zahl ein">
+                </div>
+                <div>
+                    <label for="mail">Gib mit eine Mail ein</label>
+                    <input type="mail" id="mail" placeholder="Gib mit eine Mail ein">
+                </div>
+                <div>
+                    <label for="current-password">Gib mit ein Passwort ein</label>
+                    <input type="current-password" id="current-password">
+                </div>
+            </section>
+
+            <hr>
+            <section>
+                <h2>Kommst du mit mir in den Urlaub mit ?</h2>
+                <div>
+                    <input type="radio" name="auswahl" id="radioJa">
+                    <label for="radioJa">Ja</label>
+                </div>
+                <div>
+                    <input type="radio" name="auswahl" id="radioNein">
+                    <label for="radioNein">Nein</label>
+                </div>
+                <div>
+                    <input type="radio" name="auswahl" id="radioVielleicht">
+                    <label for="radioVielleicht">Vielleicht</label>
+                </div>
+                
+            </section>
+
+            <hr>
+            <section>
+
+            <h3>Ich packe meinen Koffer</h3>
+            <div>
+                <input type="checkbox" name="checkboxHose" id="checkboxHose">
+                <label for="checkboxHose">Hose</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkboxShirt" id="checkboxShirt">
+                <label for="checkboxShirt">Shirt</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Schuhe" id="Schuhe">
+                <label for="Schuhe">Schuhe</label>
+            </div>  
+
+            </section>
+            <hr>
+            <h3>Reiseziele</h3>
+            <select name="reise" id="reise">
+                <option value="">Wähle aus</option>
+                <option value="HR">Kroatien</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="MG">Madagaskar</option>
+                <option value="MX">Mexiko</option>
+            </select>
+
+            <hr>
+
+            <section>
+                <h3>Datum</h3>
+                <div>
+                    <label for="date">Datum</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Range</h3>
+                <div>
+                    <label for="gefühle">Auf einer Skala von 1 - 10 </label>
+                    <input type="range" name="gefühle" id="gefühle" min="1" max="10">
+                </div>
+            </section>
+
+
+            <hr>
+
+                <h3>Textarea</h3>
+                <div>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Erzähle mir deine Geschichte"></textarea>
+                </div>
+        
+            <hr>
+
+
+            <h3>File</h3>
+            <label for="file">Zeig mir dein lieblingsbild</label>
+            <input type="file" name="" id="file">
+
+            <hr>
+
+            <h3>Button</h3>
+            <input type="button" value="Reset">
+
+            <input type="submit" value="senden">
+
+        </fieldset>
+    </form>
+</body>
+</html>
