@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-1_1</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <fieldset>
+        <form action="">
+            <div class="name">
+                <label for="text">Name</label>
+                <input type="text" id="vorname" placeholder="vorname">
+                <input type="text" id="nachname" placeholder="nachname">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="thema">
+                <label for="thema">Thema</label>
+                <select name="thema" id="thema">
+                    <option value="AT">Advertise</option>
+                    <option value="GL">General</option>
+                    <option value="PN">Partnership</option>
+                </select>
+            </div>
+            <div class="nachricht">
+                <label for="nachricht">Nachricht</label>
+                <textarea name="nachricht" id="nachricht" cols="30" rows="5"></textarea>
+            </div>
+            <div class="submit">
+                <input class="button" type="button" value="submit">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

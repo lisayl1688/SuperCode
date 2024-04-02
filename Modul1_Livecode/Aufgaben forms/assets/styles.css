@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+fieldset{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.name {
+    display: block;
+
+}
+
+.email {
+    display: grid;
+}
+
+.thema{
+    display: grid;
+}
+
+.nachricht {
+    display: grid;
+}
+
+.submit {
+    text-align: center;
+}
+
+.button {
+    width: 20vw;
+    background-color: cadetblue;
+    color: white;
+}
