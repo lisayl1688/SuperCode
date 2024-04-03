@@ -1,0 +1,38 @@
+*   {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/job-savelsberg-Gzb1RJsZCiI-unsplash.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0.5px;
+}
+
+.oben {
+    background-color: rgba(200, 200, 200,1);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+
+    justify-content: flex-start;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    font-size: 2.5rem;
+
+}

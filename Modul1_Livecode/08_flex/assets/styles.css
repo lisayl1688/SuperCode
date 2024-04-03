@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    /* standard / default verhalten => flex-direction row => die Elemente werden nebeneinander angeordet*/
+    /*  flex-direction: row-reverse; die elemnte werden nebeneinader angeordnet aber in der umgekehrten reihenfolge*/
+    /*  flex-direction: column;  => die Elemente werden untereinander angeordnet*/
+    /*  flex-direction: column-reverse; => die elemente werden untereinander aber in der umgekehrten reihenfolge angeordnet */
+    border: 10px solid purple;
+    gap: 10px;
+    height: 500px;
+  }
+  
+  .flex-item {
+    border: 5px dotted greenyellow;
+    background-color: rgba(172, 255, 47, 0.386);
+    padding: 20px;
+  }
+  
+  /* eigenschaften die das verhalen der flex items steuern */
+  /* justify-content => steuert die items auf der Hauptachse */
+  /* align-items => steuert die Items auf der Kreuzachse */
+  /* flex-direction dreht die Hauptachse */
+  
+  article:nth-of-type(3) {
+    height: 700px;
+    /* # fuer flex-direction: row; */
+    /* default ist flex-start */
+    /*   justify-content: flex-end; => schiebt die Elemente an das ende der Hauptachse */
+    /*   justify-content: center; => elemente werden zentriert */
+    /*  justify-content: space-between; => zwischen den elemenen ist ein gleich grosser abstand (es gibt keinen aussenabstandj) */
+    /* justify-content: space-around; es gibt einen aussenabstand und der innenabstand zw den elemten ist das doppelte des aussenabstandes */
+    /* justify-content: space-evenly; */ /* ueberall ein gleicher abstand */
+  
+    /*  align-items: stretch; => default , elemente nehmen die gesamte hoehe die sie zur verfuegung haben ein */
+    /*  align-items: flex-start; => elemente werden am anfang/ beginn der Kreuzachse angeordnet */
+    /*  align-items: flex-end; schiebt die Elemente an das ende der Kreuzachse  */
+    /* align-items: center; */ /*  => die elemente werden zentiret */
+  
+    /* # fuer flex-direction: column; */
+    /*  flex-direction: column; */
+    /* align items steurt nun wie sich die Items HORIZONTAL verteilen */
+    /*   align-items: center; */
+    /* justify content steuert nun wie sich die Items VERTIKAL verteilen */
+    /*   justify-content: center; */
+  }
+  
+  .gallery {
+    border: 5px solid grey;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* => mach Zeilenumbrueche moeglich -> default ist es auf flex-wrap: no-wrap gesetzt */
+    align-content: space-evenly; /*  => wie ordnet sich das ganze an wenn umbrueche/ mehrere Zeilen da sind? => funktioniert nur wenn flex wrap auf wrap gesetzt ist, es gibt: center, flex-end, flex-start. space-around, space- evenly, space-between  */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+  }
+  
+  ul {
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-evenly;
+  }
+  
+  nav ul li {
+    list-style: none;
+    border: 1px solid red;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+  }
+  
+  /* flex order  */
+  /* .item-1 {
+    order: 3;
+  }
+  .item-2 {
+    order: 4;
+  }
+  .item-3 {
+    order: 2;
+  }
+  .item-4 {
+    order: 6;
+  }
+  .item-5 {
+    order: 1;
+  }
+  .item-6 {
+    order: 5;
+  }
+   */

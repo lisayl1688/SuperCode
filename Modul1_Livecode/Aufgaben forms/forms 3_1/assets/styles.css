@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0
+}
+
+
+label {
+    display:block;
+}
+input {
+     display:block;
+     width: 100%;
+     height: 6vh;
+    }
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.signUpFormHeadline{
+    background-color: #2a88ad;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 10px 20px 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.signUpNowText{
+    margin-right: 80px;
+}
+
+
+.inputWrapper{
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #717175;
+}
+
+p{
+    font-size: 20px;
+    color: #2585aa;
+    margin-left: 18px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2585aa;
+    position: relative;
+    right: 10px;
+}
+
+.iconNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.iconAndHeadline{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
