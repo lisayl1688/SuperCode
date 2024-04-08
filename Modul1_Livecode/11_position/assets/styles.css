@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+header nav {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: aqua;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+#first_section {
+    height: 100vh;
+    background-color: brown;
+}
+#second_section {
+    height: 100vh;
+    background-color: chocolate;
+    padding-top: 50px;
+}
+
+
+
+.wrapper-sticky {
+    width: 100vw;
+    height: 50px;
+    background-color: chartreuse;
+    position: sticky;
+    top: 20px;
+    left: 100px;
+}
+
+#third_section {
+    height: 100vh;
+    background-color: pink;
+    position: relative;
+}
+
+.box1 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+.box2 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+}

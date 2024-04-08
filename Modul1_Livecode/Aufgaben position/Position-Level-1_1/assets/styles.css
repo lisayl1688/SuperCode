@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.text {
+    background-image: url(./img/martin-jernberg-oBX-b6ltYts-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.everest {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+.meter {
+    position: absolute;
+    top: 160px;
+    right: 100px;
+}
