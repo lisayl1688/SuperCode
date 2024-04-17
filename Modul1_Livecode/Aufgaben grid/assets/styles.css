@@ -1,0 +1,721 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 36;
+}
+
+header {
+    margin: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.shopParent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: 20px;
+    height: 616vh;
+}
+
+
+.Fjallraven {
+    grid-column: 1/4;
+    height: 110vh;
+    background-image: url(./img/Fjallraven.png.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Fjallraven .produkt, .Fjallraven .marke, .Fjallraven .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Fjallraven .marke {
+    bottom: 1em;
+}
+.Fjallraven .preis {
+    right: 0em;
+}
+
+
+.Tomons {
+    height: 95vh;
+    background-image: url(./img/Tomons.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Tomons .produkt, .Tomons .marke, .Tomons .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Tomons .marke {
+    bottom: 1em;
+}
+.Tomons .preis {
+    right: 0em;
+}
+
+
+.UconAcrobatics {
+    height: 95vh;
+    background-image: url(./img/Ucon\ Acrobatics.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.UconAcrobatics .produkt, .UconAcrobatics .marke, .UconAcrobatics .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.UconAcrobatics .marke {
+    bottom: 1em;
+}
+.UconAcrobatics .preis {
+    right: 0em;
+}
+
+
+.Retrospec {
+    height: 95vh;
+    background-image: url(./img/Retrospec.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Retrospec .produkt, .Retrospec .marke, .Retrospec .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Retrospec .marke {
+    bottom: 1em;
+}
+.Retrospec .preis {
+    right: 0em;
+}
+
+
+.Fellow {
+    height: 95vh;
+    background-image: url(./img/Fellow.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Fellow .produkt, .Fellow .marke, .Fellow .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Fellow .marke {
+    bottom: 1em;
+}
+.Fellow .preis {
+    right: 0em;
+}
+
+
+.CandylabToys {
+    height: 95vh;
+    background-image: url(./img/Candylab\ Toys.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.CandylabToys .produkt, .CandylabToys .marke, .CandylabToys .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.CandylabToys .marke {
+    bottom: 1em;
+}
+.CandylabToys .preis {
+    right: 0em;
+}
+
+
+.Taschen {
+    height: 95vh;
+    background-image: url(./img/Taschen.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Taschen .produkt, .Taschen .marke, .Taschen .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Taschen .marke {
+    bottom: 1em;
+}
+.Taschen .preis {
+    right: 0em;
+}
+
+
+.SophieLovell {
+    grid-column: 1/4;
+    height: 110vh;
+    background-image: url(./img/Sophie\ Lovell.png.png );
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.SophieLovell .produkt, .SophieLovell .marke, .SophieLovell .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.SophieLovell .marke {
+    bottom: 1em;
+}
+.SophieLovell .preis {
+    right: 0em;
+}
+
+
+.NathanWilliams {
+    height: 95vh;
+    background-image: url(./img/Nathan\ Williams.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.NathanWilliams .produkt, .NathanWilliams .marke, .NathanWilliams .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.NathanWilliams .marke {
+    bottom: 1em;
+}
+.NathanWilliams .preis {
+    right: 0em;
+}
+
+
+.Ugmonk {
+    height: 95vh;
+    background-image: url(./img/Ugmonk.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Ugmonk .produkt, .Ugmonk .marke, .Ugmonk .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Ugmonk .marke {
+    bottom: 1em;
+}
+.Ugmonk .preis {
+    right: 0em;
+}
+
+
+.Corkcicle {
+    height: 95vh;
+    background-image: url(./img/Corkcicle..png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Corkcicle .produkt, .Corkcicle .marke, .Corkcicle .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Corkcicle .marke {
+    bottom: 1em;
+}
+.Corkcicle .preis {
+    right: 0em;
+}
+
+
+.HermanMiller {
+    height: 95vh;
+    background-image: url(./img/Herman\ Miller.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.HermanMiller .produkt, .HermanMiller .marke, .HermanMiller .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.HermanMiller .marke {
+    bottom: 1em;
+}
+.HermanMiller .preis {
+    right: 0em;
+}
+
+
+.FieldNotes {
+    height: 95vh;
+    background-image: url(./img/Field\ Notes.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.FieldNotes .produkt, .FieldNotes .marke, .FieldNotes .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.FieldNotes .marke {
+    bottom: 1em;
+}
+.FieldNotes .preis {
+    right: 0em;
+}
+
+
+.CounterPrint{
+    height: 95vh;
+    background-image: url(./img/Counter\ Print.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.CounterPrint .produkt, .CounterPrint .marke, .CounterPrint .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.CounterPrint .marke {
+    bottom: 1em;
+}
+.CounterPrint .preis {
+    right: 0em;
+}
+
+
+.Grupa {
+    grid-column: 1/4;
+    height: 110vh;
+    background-image: url(./img/Grupa.png.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Grupa .produkt, .Grupa .marke, .Grupa .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Grupa .marke {
+    bottom: 1em;
+}
+.Grupa .preis {
+    right: 0em;
+}
+
+
+.Komono{
+    height: 95vh;
+    background-image: url(./img/Komono.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Komono .produkt, .Komono .marke, .Komono .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Komono .marke {
+    bottom: 1em;
+}
+.Komono .preis {
+    right: 0em;
+}
+
+
+.HeyStudio{
+    height: 95vh;
+    background-image: url(./img/Hey\ Studio.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.HeyStudio .produkt, .HeyStudio .marke, .HeyStudio .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.HeyStudio .marke {
+    bottom: 1em;
+}
+.HeyStudio .preis {
+    right: 0em;
+}
+
+
+.BlueBottleCompany{
+    height: 95vh;
+    background-image: url(./img/Blue\ Bottle\ Company.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.BlueBottleCompany .produkt, .BlueBottleCompany .marke, .BlueBottleCompany .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.BlueBottleCompany .marke {
+    bottom: 1em;
+}
+.BlueBottleCompany .preis {
+    right: 0em;
+}
+
+
+.BangOlufsen{
+    height: 95vh;
+    background-image: url(./img/Bang\ &\ Olufsen.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.BangOlufsen .produkt, .BangOlufsen .marke, .BangOlufsen .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.BangOlufsen .marke {
+    bottom: 1em;
+}
+.BangOlufsen .preis {
+    right: 0em;
+}
+
+
+.AnthonyBurrill{
+    height: 95vh;
+    background-image: url(./img/Anthony\ Burrill.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.AnthonyBurrill .produkt, .AnthonyBurrill .marke, .AnthonyBurrill .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.AnthonyBurrill .marke {
+    bottom: 1em;
+}
+.AnthonyBurrill .preis {
+    right: 0em;
+}
+
+
+.EamesStyle{
+    height: 95vh;
+    background-image: url(./img/Eames\ Style.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.EamesStyle .produkt, .EamesStyle .marke, .EamesStyle .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.EamesStyle .marke {
+    bottom: 1em;
+}
+.EamesStyle .preis {
+    right: 0em;
+}
+
+
+.ThamesHudson {
+    grid-column: 1/4;
+    height: 110vh;
+    background-image: url(./img/Thames\ &\ Hudson.png.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.ThamesHudson .produkt, .ThamesHudson .marke, .ThamesHudson .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.ThamesHudson .marke {
+    bottom: 1em;
+}
+.ThamesHudson .preis {
+    right: 0em;
+}
+
+
+.JosefMüllerBrockmann{
+    height: 95vh;
+    background-image: url(./img/Josef\ Müller-Brockmann.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.JosefMüllerBrockmann .produkt, .JosefMüllerBrockmann .marke, .JosefMüllerBrockmann .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.JosefMüllerBrockmann .marke {
+    bottom: 1em;
+}
+.JosefMüllerBrockmann .preis {
+    right: 0em;
+}
+
+
+.Herschel{
+    height: 95vh;
+    background-image: url(./img/Herschel.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Herschel .produkt, .Herschel .marke, .Herschel .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Herschel .marke {
+    bottom: 1em;
+}
+.Herschel .preis {
+    right: 0em;
+}
+
+
+.GoodFuckingDesignAdvice{
+    height: 95vh;
+    background-image: url(./img/Good\ Fucking\ Design\ Advice.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.GoodFuckingDesignAdvice .produkt, .GoodFuckingDesignAdvice .marke, .GoodFuckingDesignAdvice .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.GoodFuckingDesignAdvice .marke {
+    bottom: 1em;
+}
+.GoodFuckingDesignAdvice .preis {
+    right: 0em;
+}
+
+
+.Apple{
+    height: 95vh;
+    background-image: url(./img/Apple.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Apple .produkt, .Apple .marke, .Apple .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Apple .marke {
+    bottom: 1em;
+}
+.Apple .preis {
+    right: 0em;
+}
+
+
+.Kinto{
+    height: 95vh;
+    background-image: url(./img/Kinto.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Kinto .produkt, .Kinto .marke, .Kinto .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Kinto .marke {
+    bottom: 1em;
+}
+.Kinto .preis {
+    right: 0em;
+}
+
+
+.Apple2{
+    height: 95vh;
+    background-image: url(./img/Apple2.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Apple2 .produkt, .Apple2 .marke, .Apple2 .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Apple2 .marke {
+    bottom: 1em;
+}
+.Apple2 .preis {
+    right: 0em;
+}
+
+
+.Menu {
+    grid-column: 1/4;
+    height: 110vh;
+    background-image: url(./img/Menu.png.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Menu .produkt, .Menu .marke, .Menu .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Menu .marke {
+    bottom: 1em;
+}
+.Menu .preis {
+    right: 0em;
+}
+
+
+.NormannCopenhagen{
+    height: 95vh;
+    background-image: url(./img/Normann\ Copenhagen.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.NormannCopenhagen .produkt, .NormannCopenhagen .marke, .NormannCopenhagen .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.NormannCopenhagen .marke {
+    bottom: 1em;
+}
+.NormannCopenhagen .preis {
+    right: 0em;
+}
+
+
+.Kardiel{
+    height: 95vh;
+    background-image: url(./img/Kardiel.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Kardiel .produkt, .Kardiel .marke, .Kardiel .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Kardiel .marke {
+    bottom: 1em;
+}
+.Kardiel .preis {
+    right: 0em;
+}
+
+
+.Soma{
+    height: 95vh;
+    background-image: url(./img/Soma.png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.Soma .produkt, .Soma .marke, .Soma .preis {
+    z-index: 99;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+}
+.Soma .marke {
+    bottom: 1em;
+}
+.Soma .preis {
+    right: 0em;
+}
+
+.end {
+    display: grid;
+}

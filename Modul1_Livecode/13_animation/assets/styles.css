@@ -1,0 +1,161 @@
+
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/*Transform*/
+
+.transform div  {
+    background-color: teal;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+
+    /*translate*/
+    /*transform: translate(450px, -125px);*/
+    /*transform: translateX(10rem);*/
+    /*transform: translateY(200%);*/
+
+
+    /*rotate*/
+    /*transform: rotate(20deg);*/
+    /*transform: rotateX(40deg);*/
+    /*transform: rotateY(40deg);*/
+
+
+    /*scale*/
+    /*transform: scale(1);
+    transform: scaleX(2);
+    transform: scaleY(2);*/   
+}
+
+button {
+    background-color: rgb(216, 78, 101);
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+
+    transition: background-color 750ms ease-in-out, transform 1000ms 750ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(111, 25, 39);
+    transform: scale(1.2);
+}
+
+input {
+    transition: background-color 0.5s ease-in-out;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+/* ! Animation - Keyframes-Regel*/
+
+
+.animation {
+    background-color: rgb(201, 200, 200);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 4rem;
+}
+
+.animation div {
+    background-color: rgb(61, 15, 61);
+    width: 50%;
+    height: 50%;
+    animation: move 2s 2s linear infinite alternate;
+
+    animation: move2 5s linear infinite;
+}
+
+/*@keyframes move {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}*/
+
+@keyframes move2 {
+    0% {
+        background-color: green;
+    }
+
+    25% {
+        background-color: red;
+        transform: translateY(100%);
+
+    }
+
+    50% {
+        background-color: orange;
+        transform: translate(100% 100%);
+
+    }
+
+    75% {
+        background-color: aqua;
+        transform: translateX(100%);
+
+    }
+
+    100% {
+        background-color: green;
+        transform: translateX(0);
+    }
+}
+
+.loader {
+    display: flex;
+    gap: 8px;
+}
+
+.loader div {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(7, 55, 81);
+    border-radius: 50%;
+    margin-bottom: 200px;
+}
+
+.loader div:nth-of-type(1){
+    animation: loader 2s linear infinite;
+}
+.loader div:nth-of-type(2){
+    animation: loader 2s 0.2s linear infinite;
+}
+.loader div:nth-of-type(3){
+    animation: loader 2s  0.4s linear infinite;
+}
+.loader div:nth-of-type(4){
+    animation: loader 2s 0.6s linear infinite;
+}
+
+@keyframes loader {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(-10px);
+    }
+    66% {
+        transform: translateY(10px);
+    }
+}

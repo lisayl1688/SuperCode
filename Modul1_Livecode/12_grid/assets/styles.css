@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div:nth-child(odd) {
+    background-color: aquamarine;
+}
+div:nth-child(even) {
+    background-color: blueviolet;
+}
+
+div {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.gridParent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /*grid-template-columns: 320px 50px 2fr;*/
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gridParent .box1 {
+    background-color: red;
+    /*grid-column-start: 3;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 3;*/
+
+    grid-column: 1/5;
+}
