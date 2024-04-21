@@ -1,0 +1,46 @@
+.counter {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  
+  /* * add, remove, toggle */
+  
+  .big {
+    font-size: 3rem;
+    color: orangered;
+  }
+  
+  .wegnehmen {
+    color: lime;
+    font-size: 1.5rem;
+  }
+  
+  img {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .dark {
+    background-color: rgb(61, 60, 60);
+    color: white;
+  }
+  
+  body {
+    transition: 0.4s;
+  }

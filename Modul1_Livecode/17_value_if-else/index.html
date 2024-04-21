@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>value_if-else</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <h2>Mini Rechner</h2>
+  <section class="counter">
+    <h3 class="output-calc">0</h3>
+    <button onclick="superFunc(+1)">+1</button>
+    <button onclick="superFunc(-1)">-1</button>
+    <button onclick="superFunc(+10)">+10</button>
+    <button onclick="superFunc(-10)">-10</button>
+    <button onclick="malZwei()">*2</button>
+    <button onclick="reset()">reset</button>
+  </section>
+
+  <button onclick="sayHi('Pius')">Hallo</button>
+  <div class="btn-output"></div>
+
+  <h2>Value auslesen</h2>
+  <form onsubmit="getInputValue(); return false">
+    <!-- return false stellt das default verhalten von Formularen aus (sprich die seite wird nun NICHT mehr neu geladen, sobald das formular submitted wird) -->
+    <label for="name">Name</label>
+    <input type="text" id="name" class="name" />
+
+    <label for="number">Age</label>
+    <input type="number" id="number" class="number" />
+
+    <label for="range">Range</label>
+    <input
+      type="range"
+      min="0"
+      max="50"
+      step="1"
+      value="25"
+      id="range"
+      class="range"
+    />
+
+    <label for="checkbox">Are You happy?</label>
+    <input type="checkbox" id="checkbox" class="checkbox" />
+
+    <label for="bday">Bday</label>
+    <input type="date" id="bday" class="bday" />
+
+    <input type="submit" />
+    <p class="form-output"></p>
+  </form>
+
+  <h2>Login</h2>
+  <form onsubmit="checkUserData(); return false">
+    <label for="username">Username</label>
+    <input type="text" id="username" />
+    <label for="password">Password</label>
+    <input type="password" id="password" />
+    <input type="submit" />
+    <div id="login-feedback"></div>
+  </form>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

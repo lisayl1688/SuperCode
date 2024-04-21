@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-JS-Level-1_2</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <form>
+        <label for="date">Gib dein Geburtstag ein</label>
+        <input type="text" class="jahr" min="1990" max="2024">
+        <button onclick="geburtsjahrBerechnen(); return false">Berechne mein Alter</button>
+        <p class="output"></p>
+    </form>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
